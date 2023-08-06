@@ -125,3 +125,23 @@
 //     console.log("drink to alchol");
 // }
 // ------------------------------------------
+
+// let mark=7
+// let grade=document.getElementById("grade-el")
+// let marks=document.getElementById("mark-el")
+
+
+// function yourGrade(){
+//     marks.textContent+=mark
+//     if(mark>90){
+//         message="your grade A"
+//     }else if(mark>80){
+//         message="your grade B"
+//     }else if(mark>70){
+//         message="your grade c"
+//     }else{
+//         message="pass"
+//     }
+//   grade.textContent+=message
+// }
+// --------------------------------------------
