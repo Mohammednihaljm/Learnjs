@@ -4,8 +4,7 @@
     <title>youtube.com Clone</title>
     <style>
       .thumbnail {
-        width: 300px;
-        display: block;
+        width: 100%;
       }
       .search-bar {
         font-size: 10px;
@@ -32,60 +31,135 @@
       .title-view {
         margin-top: 0;
       }
-      .prew-container {
-        display: inline-block;
-        margin-left: 20px;
+
+      .video-info-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
       }
       .profile-picture {
-        display: inline-block;
-        width: 50px;
+       
         vertical-align: top;
       }
       .video-info {
-        display: inline-block;
-        width: 200px;
+        padding-left: 10px;
       }
       .pr-pic {
-        width: 40px;
+        width: 50px;
         border-radius: 20px;
       }
       .thumbnail-row {
         margin-bottom: 10px;
       }
+      .vido-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 20px;
+     } 
+      
     </style>
   </head>
   <body>
-    <input class="search-bar" type="text" placeholder="search" />
 
-    <div class="prew-container">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/hq720.webp" />
-      </div>
-      <div>
-        <div class="profile-picture">
-          <img class="pr-pic" src="profile-picture/htmlimg.jpg" />
+    <div class="vido-grid">
+      <div class="prew-container">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq720.webp" />
         </div>
-        <div class="video-info">
-          <p class="title-head">HTML & CSS Full Course - Beginner to Pro</p>
-          <p class="title-auth">super simple dev</p>
-          <p class="title-view">6.1 views &#183; 1 year ago</p>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="pr-pic" src="profile-picture/htmlimg.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="title-head">HTML & CSS Full Course - Beginner to Pro</p>
+            <p class="title-auth">super simple dev</p>
+            <p class="title-view">6.1 views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="prew-container">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq720.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="pr-pic" src="profile-picture/htmlimg.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="title-head">HTML & CSS Full Course - Beginner to Pro</p>
+            <p class="title-auth">super simple dev</p>
+            <p class="title-view">6.1 views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="prew-container">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq720.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="pr-pic" src="profile-picture/htmlimg.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="title-head">HTML & CSS Full Course - Beginner to Pro</p>
+            <p class="title-auth">super simple dev</p>
+            <p class="title-view">6.1 views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="prew-container">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq720.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="pr-pic" src="profile-picture/htmlimg.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="title-head">HTML & CSS Full Course - Beginner to Pro</p>
+            <p class="title-auth">super simple dev</p>
+            <p class="title-view">6.1 views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="prew-container">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq720.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="pr-pic" src="profile-picture/htmlimg.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="title-head">HTML & CSS Full Course - Beginner to Pro</p>
+            <p class="title-auth">super simple dev</p>
+            <p class="title-view">6.1 views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="prew-container">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq720.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="pr-pic" src="profile-picture/htmlimg.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="title-head">HTML & CSS Full Course - Beginner to Pro</p>
+            <p class="title-auth">super simple dev</p>
+            <p class="title-view">6.1 views &#183; 1 year ago</p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="prew-container">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/hq720.webp" />
-      </div>
-      <div>
-        <div class="profile-picture">
-          <img class="pr-pic" src="profile-picture/htmlimg.jpg" />
-        </div>
-        <div class="video-info">
-          <p class="title-head">HTML & CSS Full Course - Beginner to Pro</p>
-          <p class="title-auth">super simple dev</p>
-          <p class="title-view">6.1 views &#183; 1 year ago</p>
-        </div>
-      </div>
-    </div>
+
+   
+   
+    
+
+
+    
   </body>
 </html>
